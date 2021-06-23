@@ -1,0 +1,22 @@
+.App {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  color: white;
+}
+.header {
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid var(--main-accent-color);
+}
+.general-content {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+}
+.sidebar {
+  background-color: var(--bg-light-color);
+  height: calc(100vh - 150px);
+  padding: 1rem;
+}
+.main {
+  padding: 1rem;
+}
